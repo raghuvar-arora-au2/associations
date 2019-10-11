@@ -6,6 +6,11 @@ var postSchema=new mongoose.Schema({
 	content:String
 });
 
+// var postSchema=new mongoose.Schema({
+// 	title:String,
+// 	content:String
+// });
+
 var userSchema=new mongoose.Schema({
 	email:String,
 	name:String,
